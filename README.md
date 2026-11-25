@@ -1,4 +1,4 @@
-# sprintflint-com
+# SprintFlint
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-sprintflint-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://sprintflint.com/
+SprintFlint provides a simple sprint ticketing platform that helps agile teams meet deadlines with velocity analytics, real-time collaboration, and AI‑powered user story generation. It offers features such as sprint planning, backlog management, task tracking, and integrated analytics to improve team productivity and delivery speed.
+
+**Areas:** Company · Agile · Sprint Management · SaaS · Project Management
+
+## SprintFlint on APIs.io
+
+Everything profiled for SprintFlint is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sprintflint-com/](https://apis.io/providers/sprintflint-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [SprintFlint API](https://apis.io/apis/sprintflint-com/sprintflint-api/) — REST API for programmatic access to projects, sprints, and issues.
+- [SprintFlint API](https://apis.io/apis/sprintflint-com/sprintflint-com-api/) — SprintFlint API as documented publicly: 30 operations. Contract generated from the documentation by API Evangelist (2026-11-25); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [GetApiV1ProjectsResponse](https://apis.io/schemas/sprintflint-com/sprintflint-com-get-api-v1-projects-response/)
+- [PatchApiV1Projects1Sprints1IssuesIssueidRequest](https://apis.io/schemas/sprintflint-com/sprintflint-com-patch-api-v1-projects1-sprints1-issues-issueid-request/)
+- [PostApiV1Projects1Sprints1IssuesIssueidCommentsRequest](https://apis.io/schemas/sprintflint-com/sprintflint-com-post-api-v1-projects1-sprints1-issues-issueid-comments-request/)
+- [PostApiV1Projects1Sprints1IssuesRequest](https://apis.io/schemas/sprintflint-com/sprintflint-com-post-api-v1-projects1-sprints1-issues-request/)
+- [PutApiV1Projects1Sprints1IssuesIssueidRequest](https://apis.io/schemas/sprintflint-com/sprintflint-com-put-api-v1-projects1-sprints1-issues-issueid-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sprintflint Com Context](https://apis.io/jsonld/sprintflint-com/sprintflint-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SprintFlint API Rules](https://apis.io/rules/sprintflint-com/sprintflint-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SprintFlint Domain Security](https://apis.io/security/sprintflint-com/sprintflint-com-domain-security/)
+- [SprintFlint Trust Center](https://apis.io/security/sprintflint-com/sprintflint-com-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [SprintFlint Plans Pricing](https://apis.io/plans/sprintflint-com/sprintflint-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sprintflint.com/)
+- [Documentation](https://sprintflint.com/docs)
+- [Getting started](https://sprintflint.com/docs/getting-started)
+- [API reference](https://sprintflint.com/llms.txt)
+- [Pricing](https://sprintflint.com/pricing)
+- [Blog](https://sprintflint.com/blog)
+- [Compliance](https://sprintflint.com/privacy)
+- [Terms of service](https://sprintflint.com/terms)
+- [Privacy policy](https://sprintflint.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 47.7** — developing · rubric 0.28.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 51.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 4.8 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 61.3 |
+
+**Agent readiness 22.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sprintflint-com/](https://apis.io/providers/sprintflint-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SprintFlint: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sprintflint-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
